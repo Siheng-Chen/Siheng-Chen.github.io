@@ -1,0 +1,14 @@
+# Font style metadata
+name = "Arvo"
+
+# Optional Google font URL
+# google_fonts = "family=Cutive+Mono&family=Lora:wght@400;700&family=Roboto:wght@400;700&display=swap"
+google_fonts = "family=Cutive+Mono&family=Kaushan+Script&family=Martel+Sans&family=Orelega+One&family=Source+Serif+Pro:ital,wght@1,300&family=Roboto:wght@400;700&display=swap"
+
+# Font families
+# slides heading
+# heading_font = "Kaushan Script"
+heading_font = "Orelega One"
+body_font = "Roboto"
+nav_font = "Martel Sans"
+mono_font = "Roboto"
