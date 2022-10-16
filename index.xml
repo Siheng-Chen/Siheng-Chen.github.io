@@ -1,142 +1,146 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Siheng Chen</title><link>https://Siheng-Chen.github.io/</link><atom:link href="https://Siheng-Chen.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Siheng Chen</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Apr 2022 20:07:44 +0800</lastBuildDate><image><url>https://Siheng-Chen.github.io/media/icon_hufe4902d8a3e296f954ced894ecfc599d_303890_512x512_fill_lanczos_center_3.png</url><title>Siheng Chen</title><link>https://Siheng-Chen.github.io/</link></image><item><title>Coperception-UAV Dataset</title><link>https://Siheng-Chen.github.io/dataset/coperception-uav/</link><pubDate>Tue, 19 Apr 2022 20:07:44 +0800</pubDate><guid>https://Siheng-Chen.github.io/dataset/coperception-uav/</guid><description>&lt;details class="toc-inpage d-print-none " open>
-&lt;summary class="font-weight-bold">Table of Contents&lt;/summary>
-&lt;nav id="TableOfContents">
-&lt;ul>
-&lt;li>&lt;a href="#about-coperception-uav-dataset">About Coperception-UAV Dataset&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#simulation-setting">Simulation Setting&lt;/a>
-&lt;ul>
-&lt;li>&lt;a href="#swarm-arrangement">Swarm arrangement&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#sensor-setup">Sensor Setup&lt;/a>&lt;/li>
-&lt;/ul>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Siheng Chen</title><link>https://Siheng-Chen.github.io/</link><atom:link href="https://Siheng-Chen.github.io/index.xml" rel="self" type="application/rss+xml"/><description>Siheng Chen</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 16 Oct 2022 17:22:11 +0800</lastBuildDate><image><url>https://Siheng-Chen.github.io/media/icon_hufe4902d8a3e296f954ced894ecfc599d_303890_512x512_fill_lanczos_center_3.png</url><title>Siheng Chen</title><link>https://Siheng-Chen.github.io/</link></image><item><title>Opening positions</title><link>https://Siheng-Chen.github.io/post/recruit-22-fall/</link><pubDate>Sun, 16 Oct 2022 17:22:11 +0800</pubDate><guid>https://Siheng-Chen.github.io/post/recruit-22-fall/</guid><description>&lt;h2 id="一平台介绍">一、平台介绍&lt;/h2>
+&lt;p>上海人工智能实验室联合上海交通大学面向海内外公开招聘机器学习、计算机视觉的博士后研究人员若干名，推进群体智能相关领域的研究，助力无人集群、 车路协同、智慧医疗等应用的发展与落地。优厚待遇国际领先。欢迎感兴趣的研 究人员应聘。&lt;/p>
+&lt;p>上海人工智能实验室是我国人工智能领域的新型科研机构，开展战略性、原创性、前瞻性的科学研究与技术攻关，突破人工智能的重要基础理论和关键核心 技术，打造“突破型、引领型、平台型”一体化的大型综合性研究基地，支撑我 国人工智能产业实现跨越式发展，目标建成国际一流的人工智能实验室，成为享 誉全球的人工智能原创理论和技术的策源地。实验室网址：www.shlab.org.cn&lt;/p>
+&lt;p>上海交通大学是我国历史最悠久的高等学府之一，教育部直属、上海市共建、 中央直管的全国重点大学，位列国家“双一流”、“985 工程”、“211 工程”， 为九校联盟、环太平洋大学联盟、21 世纪学术联盟、中国大学校长联谊会、国际 应用科技开发协作网、新工科教育国际联盟成员，入选“珠峰计划”、“强基计 划”、“111 计划”、“2011 计划”、卓越工程师教育培养计划等。学校网址： &lt;a href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener">www.sjtu.edu.cn/&lt;/a>&lt;/p>
+&lt;h2 id="二岗位职责">二、岗位职责&lt;/h2>
+&lt;ol>
+&lt;li>研究业界前沿算法，包括但不限于多智能体系统、图机器学习、联邦学习、3D 感知、数据/模型压缩；&lt;/li>
+&lt;li>负责开源项目的开发和维护，开发新的算法框架，实现 SOTA 算法，提升用户体验和项目影响力；&lt;/li>
+&lt;li>协助指导博士研究生及实习生的研究工作；&lt;/li>
+&lt;li>参与申报各类科研项目。&lt;/li>
+&lt;/ol>
+&lt;h2 id="三申请条件">三、申请条件&lt;/h2>
+&lt;ol>
+&lt;li>
+&lt;p>计算机、人工智能相关专业博士学位；&lt;/p>
 &lt;/li>
-&lt;li>&lt;a href="#data">Data&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#usage">Usage&lt;/a>&lt;/li>
-&lt;li>&lt;a href="#citation">Citation&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;/nav>
-&lt;/details>
-&lt;h2 id="about-coperception-uav-dataset">About Coperception-UAV Dataset&lt;/h2>
-&lt;!--
-&lt;video controls >
-&lt;source src="https://Siheng-Chen.github.io/dataset/coperception-uav/images/vis.mp4" type="video/mp4">
-&lt;/video> -->
-&lt;p>
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="images/vis.mp4" alt="" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p>
-&lt;p>Coperception-UAV is the first comprehensive dataset for UAV-based collaborative perception.&lt;/p>
-&lt;p>A UAV swarm has the potential to distribute tasks and achieve better, faster, and more robust performances than a single UAV. To realize this, we need to integrate collaboration ability into the entire pipeline, including perception, planning, control. Among those tasks, collaborative perception enables holistic scene understanding from multiple perspectives via the collaboration of multiple UAVs, which could fundamentally resolve the occlusion issue and the long-range issue in the traditional single-agent perception. Recently, planning and control of a UAV swarm have been intensively studied; however, the collaborative perception remains under-explored due to the lack of a comprehensive dataset. This work aims to fill this gap and proposes a collaborative perception dataset for UAV swarm.&lt;/p>
-&lt;p>Based on the co-simulation platform of AirSim and CARLA, our dataset consists of 131.9k synchronous images collected from 5 coordinated UAVs flying at 3 altitudes over 3 simulated towns with 2 swarm formations. Each image is fully annotated with the pixel-wise semantic segmentation labels and 2D/3D bounding boxes of vehicles. We further build a benchmark on the proposed dataset by evaluating a variety of related multi-agent collaborative methods on multiple perception tasks, including object detection, semantic segmentation, and bird’seye-view (BEV) semantic segmentation.&lt;/p>
-&lt;h2 id="simulation-setting">Simulation Setting&lt;/h2>
-&lt;p>Our proposed dataset is collected by the co-simulation of CARLA and AirSim. We use CARLA to generate complex simulation scenes and traffic flow; and use AirSim to simulate UAV swarm flying in the scene. The flight route of UAVs is controlled by AirSim and sample data are collected randomly at about 4-second intervals.&lt;/p>
-&lt;h3 id="swarm-arrangement">Swarm arrangement&lt;/h3>
-&lt;p>
-&lt;figure id="figure-formation">
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img alt="" srcset="
-/dataset/coperception-uav/images/formation_hu92eb0a8a8422730f2995c25e85a3fd24_207658_3b9bcb2e0bcf02de05be622cd57ff59b.webp 400w,
-/dataset/coperception-uav/images/formation_hu92eb0a8a8422730f2995c25e85a3fd24_207658_f62460ebe760b795a91ff73a230105fa.webp 760w,
-/dataset/coperception-uav/images/formation_hu92eb0a8a8422730f2995c25e85a3fd24_207658_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://Siheng-Chen.github.io/dataset/coperception-uav/images/formation_hu92eb0a8a8422730f2995c25e85a3fd24_207658_3b9bcb2e0bcf02de05be622cd57ff59b.webp"
-width="714"
-height="329"
-loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-The UAV swarm moves and executes tasks in the three-dimensional space, where the situation could be much more complex than those of vehicles or roadside units. In the dataset, two main factors are taken into consideration that may affect the perception
-and collaboration patterns of UAV swarms: flight formation and altitude. Each UAV swarm consists of 5 UAVs. We arrange two types of formation modes for a UAV swarm: discipline mode, where all 5 UAVs keeps a consistent and relatively static array, and dynamic mode, where each UAV navigates independently in the scene. The former simulates the situation where the swarm of UAVs is executing a same specific task such as exploring an unknown area, search and rescue; while the latter simulates the monitoring and patrolling tasks in the city.&lt;/p>
-&lt;h3 id="sensor-setup">Sensor Setup&lt;/h3>
-&lt;p>
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./images/sensor.png" alt="" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p>
-&lt;p>In the UAV swarm, Each UAV is equipped with 5 RGB cameras in 5 directions and 5 semantic cameras collecting semantic ground truth for RGB cameras.&lt;/p>
+&lt;li>
+&lt;p>深入了解机器学习和计算机视觉的一个或多个方向，以一作身份在顶会或顶刊发表过高质量论文；&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>熟练掌握 Python 和 PyTorch，有良好的工程实现能力；&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>熟悉 C++、CUDA、ROS，在技术社区有影响力，曾参与贡献知名开源项目者 优先&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;h2 id="四团队简介">四、团队简介&lt;/h2>
+&lt;p>王延峰教授，博士生导师，现任上海人工智能实验室主任助理、全球高校人工智能学术联盟秘书长。国家发改委人工智能专家委员会委员、科技部科技创新 2030“新一代人工智能”重大项目指南专家组成员。主要研究方向为人工智能、 智慧医疗、新兴信息技术商业应用。&lt;/p>
+&lt;p>陈思衡，博士生导师，现任上海交通大学电子信息与电气工程学院未来媒体 网络协同创新中心副教授，上海人工智能实验室双聘青年科学家，美国卡内基梅隆大学博士，入选国家级人才计划青年项目。研究方向为群体智能，图机器学习，联邦学习，自动驾驶。&lt;/p>
+&lt;h2 id="五应聘方式">五、应聘方式&lt;/h2>
+&lt;p>将详细的个人简历，包括教育背景、工作经历、成果情况及联系方式发送至邮箱：sihengc@sjtu.edu.cn ,邮件标题注明“博士后应聘_姓名”。&lt;/p></description></item><item><title>Slides</title><link>https://Siheng-Chen.github.io/slides/example/</link><pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate><guid>https://Siheng-Chen.github.io/slides/example/</guid><description>&lt;h1 id="create-slides-in-markdown-with-wowchemy">Create slides in Markdown with Wowchemy&lt;/h1>
+&lt;p>&lt;a href="https://wowchemy.com/" target="_blank" rel="noopener">Wowchemy&lt;/a> | &lt;a href="https://wowchemy.com/docs/content/slides/" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2 id="features">Features&lt;/h2>
 &lt;ul>
-&lt;li>90° horizontal FoV&lt;/li>
-&lt;li>1 bird’s eye view camera and 4 cameras facing forward, backward, right, and left with a pitch degree of −45°&lt;/li>
-&lt;li>image size: 800x450 pixels&lt;/li>
+&lt;li>Efficiently write slides in Markdown&lt;/li>
+&lt;li>3-in-1: Create, Present, and Publish your slides&lt;/li>
+&lt;li>Supports speaker notes&lt;/li>
+&lt;li>Mobile friendly slides&lt;/li>
 &lt;/ul>
-&lt;h2 id="data">Data&lt;/h2>
-&lt;p>Fully-annotated data are provided in the dataset, including synchronous images with pixel-wise semantic labels, 2D &amp;amp; 3D bounding boxes of vehicles, and BEV semantic map.&lt;/p>
-&lt;p>
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./images/sample.png" alt="" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p>
-&lt;p>&lt;strong>Camera data&lt;/strong> We collect synchronous images from all cameras on 5 UAVs, which is 25 images in a sample. In total, 123.8K images are collected for the discipline swarm mode and 8.1K for the dynamic swarm mode. We provide semantic label for each image.&lt;/p>
-&lt;p>&lt;strong>Bounding boxes&lt;/strong> 3D bounding boxes of vehicles are recorded at the same moment with images, including location (x, y, z), rotation (w, x, y, z in quaternion) in the global coordinate and their length, width and height. To specifically address the occlusion issue, we also provide a binary label for the occlusion status of each bounding box.&lt;/p>
-&lt;p>&lt;strong>BEV semantic label&lt;/strong> We provide BEV segmentation labels of four categories: roadway, building, vehicle, and others, which are the key elements to construct the layout of a city and foreground objects. The resolution of the BEV map is 0.25m×0.25m.&lt;/p>
-&lt;h2 id="usage">Usage&lt;/h2>
-&lt;p>
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./images/tutorial.png" alt="" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p>
-&lt;p>The dataset is organized in a similar way with the widelyused autonomous driving dataset, nuScenes; so it can be used directly with the well-established nuScenes-devkit.&lt;/p>
-&lt;h2 id="citation">Citation&lt;/h2>
-&lt;pre tabindex="0">&lt;code>To Be Done
-&lt;/code>&lt;/pre></description></item><item><title>GroupNet: Multiscale Hypergraph Neural Networks for Trajectory Prediction with Relational Reasoning</title><link>https://Siheng-Chen.github.io/project/groupnet/</link><pubDate>Mon, 18 Apr 2022 19:34:19 +0800</pubDate><guid>https://Siheng-Chen.github.io/project/groupnet/</guid><description>&lt;p>
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./images/featured.jpg" alt="" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p>
-&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>Demystifying the interactions among multiple agents from their past trajectories is fundamental to precise and interpretable trajectory prediction. However, previous works only consider pair-wise interactions with limited relational reasoning. To promote more comprehensive interaction modeling for relational reasoning, we propose GroupNet, a multiscale hypergraph neural network, which is novel in terms of both interaction capturing and representation learning. From the aspect of interaction capturing, we propose a trainable multiscale hypergraph to capture both pair-wise and group-wise interactions at multiple group sizes. From the aspect of interaction representation learning, we propose a three-element format that can be learnt end-to-end and explicitly reason some relational factors including the interaction strength and category. We apply GroupNet into both CVAE-based prediction system and previous state-of-the-art prediction systems for predicting socially plausible trajectories with relational reasoning. To validate the ability of relational reasoning, we experiment with synthetic physics simulations to reflect the ability to capture group behaviors, reason interaction strength and interaction category. To validate the effectiveness of prediction, we conduct extensive experiments on three real-world trajectory prediction datasets, including NBA, SDD and ETH-UCY; and we show that with GroupNet, the CVAE-based prediction system outperforms state-of-the-art methods. We also show that adding GroupNet will further improve the performance of previous state-of-the-art prediction systems.&lt;/p>
-&lt;h2 id="result">Result&lt;/h2>
-&lt;h3 id="on-the-relational-reasoning">On the relational reasoning&lt;/h3>
-&lt;p>Visualization of learnt group behavior. (a) The particle trajectories containing a three-group with a light bar, a two-group with a spring and an individual particle. (b) The heatmap of the learnt affinity matrix via affinity modeling. (c) The multiscale hypergraph topology via hyperedge forming and the interaction category vector of each hyperedge. The red box represents the three-group and two-group we inferred.
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./images/group_behavior.png" alt="" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p>
-&lt;p>Particles&amp;rsquo; trajectories and the curve of neural interaction strength with particle&amp;rsquo;s electric charge. We see that the neural interaction strength has a proportional relationship with the amount of charge, reflecting our model is capable to implicitly capture the interaction strength in an unsupervised manner.
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./images/strength.png" alt="" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p>
-&lt;p>Visualization results on the NBA dataset. We plot the best trajectory among 20 predictions for the state-of-the-art method (NMMP), GroupNet with the CVAE framework (Ours) and ground truth (GT). The red/blue color represents players of two teams and the green color represents the basketball. Light color represents the past trajectory.
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./images/nba.png" alt="" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p>
-&lt;h2 id="citation">Citation&lt;/h2>
-&lt;pre tabindex="0">&lt;code>@InProceedings{xu2022GroupNet,
-author = {Xu, Chenxin and Li, Maosen and Ni, Zhenyang and Zhang, Ya and Chen, Siheng},
-title = {GroupNet: Multiscale Hypergraph Neural Networks for Trajectory Prediction with Relational Reasoning},
-booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-year = {2022}
-}
-&lt;/code>&lt;/pre>&lt;h2 id="acknowledgement">Acknowledgement&lt;/h2>
-&lt;p>This research is partially supported by the National Key R&amp;amp;D Program of China under Grant 2021ZD0112801, National Natural Science Foundation of China under Grant 62171276, the Science and Technology Commission of Shanghai Municipal under Grant 21511100900 and CCF-DiDi GAIA Research Collaboration Plan 202112.&lt;/p></description></item><item><title>Remember Intentions: Retrospective-Memory-based Trajectory Prediction</title><link>https://Siheng-Chen.github.io/project/memonet/</link><pubDate>Mon, 18 Apr 2022 19:34:19 +0800</pubDate><guid>https://Siheng-Chen.github.io/project/memonet/</guid><description>&lt;h2 id="abstract">Abstract&lt;/h2>
-&lt;p>To realize trajectory prediction, most previous methods adopt the parameter-based approach, which encodes all the seen past-future instance pairs into model parameters. However, in this way, the model parameters come from all seen instances, which means a huge amount of irrelevant seen instances might also involve in predicting the current situation, disturbing the performance. To provide a more explicit link between the current situation and the seen instances, &lt;strong>we imitate the mechanism of retrospective memory in neuropsychology and propose MemoNet, an instance-based approach that predicts the movement intentions of agents by looking for similar scenarios in the training data&lt;/strong>. In MemoNet, we design a pair of memory banks to explicitly store representative instances in the training set, acting as prefrontal cortex in the neural system, and a trainable memory addresser to adaptively search a current situation with similar instances in the memory bank, acting like basal ganglia. During prediction, MemoNet recalls previous memory by using the memory addresser to index related instances in the memory bank. We further propose a two-step trajectory prediction system, where the first step is to leverage MemoNet to predict the destination and the second step is to fulfill the whole trajectory according to the predicted destinations. Experiments show that the proposed MemoNet improves the FDE by &lt;strong>20.3%/10.2%/28.3%&lt;/strong> from the previous best method on SDD/ETH-UCY/NBA datasets. Experiments also show that our MemoNet has the ability to trace back to specific instances during prediction, promoting more interpretability.&lt;/p>
-&lt;h2 id="result">Result&lt;/h2>
-&lt;p>
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./images/MemoNet_predictions.png" alt="" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-Diverse intention prediction by MemoNet on SDD, where 20 final intentions are clustered from 120 coarse intention anchors. MemoNet can provide diverse and accurate intention predictions.&lt;/p>
-&lt;p>
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./images/MemoNet_result_interpretability.png" alt="" loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-Prediction cases with corresponding past-future trajectories traced by memory addresser. MemoNet promotes a more explicit link between the current situation and seen instances.&lt;/p>
-&lt;h2 id="citation">Citation&lt;/h2>
-&lt;pre tabindex="0">&lt;code>@InProceedings{MemoNet_2022_CVPR,
-author = {Xu, Chenxin and Mao, Weibo and Zhang, Wenjun and Chen, Siheng},
-title = {Remember Intentions: Retrospective-Memory-based Trajectory Prediction},
-booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-year = {2022}
-}
-&lt;/code>&lt;/pre>&lt;h2 id="acknowledgement">Acknowledgement&lt;/h2>
-&lt;p>This research is partially supported by the National Key R&amp;amp;D Program of China under Grant 2021ZD0112801, National Natural Science Foundation of China under Grant 62171276, the Science and Technology Commission of Shanghai Municipal under Grant 21511100900 and CCF-DiDi GAIA Research Collaboration Plan 202112.&lt;/p></description></item><item><title/><link>https://Siheng-Chen.github.io/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Siheng-Chen.github.io/admin/config.yml</guid><description/></item><item><title>Tour</title><link>https://Siheng-Chen.github.io/home/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Siheng-Chen.github.io/home/</guid><description/></item></channel></rss>
+&lt;hr>
+&lt;h2 id="controls">Controls&lt;/h2>
+&lt;ul>
+&lt;li>Next: &lt;code>Right Arrow&lt;/code> or &lt;code>Space&lt;/code>&lt;/li>
+&lt;li>Previous: &lt;code>Left Arrow&lt;/code>&lt;/li>
+&lt;li>Start: &lt;code>Home&lt;/code>&lt;/li>
+&lt;li>Finish: &lt;code>End&lt;/code>&lt;/li>
+&lt;li>Overview: &lt;code>Esc&lt;/code>&lt;/li>
+&lt;li>Speaker notes: &lt;code>S&lt;/code>&lt;/li>
+&lt;li>Fullscreen: &lt;code>F&lt;/code>&lt;/li>
+&lt;li>Zoom: &lt;code>Alt + Click&lt;/code>&lt;/li>
+&lt;li>&lt;a href="https://revealjs.com/pdf-export/" target="_blank" rel="noopener">PDF Export&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="code-highlighting">Code Highlighting&lt;/h2>
+&lt;p>Inline code: &lt;code>variable&lt;/code>&lt;/p>
+&lt;p>Code block:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="n">porridge&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;blueberry&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">if&lt;/span> &lt;span class="n">porridge&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="s2">&amp;#34;blueberry&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nb">print&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="s2">&amp;#34;Eating...&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h2 id="math">Math&lt;/h2>
+&lt;p>In-line math: $x + y = z$&lt;/p>
+&lt;p>Block math:&lt;/p>
+&lt;p>$$
+f\left( x \right) = ;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
+$$&lt;/p>
+&lt;hr>
+&lt;h2 id="fragments">Fragments&lt;/h2>
+&lt;p>Make content appear incrementally&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">{{% fragment %}} One {{% /fragment %}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{% fragment %}} **Two** {{% /fragment %}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{% fragment %}} Three {{% /fragment %}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Press &lt;code>Space&lt;/code> to play!&lt;/p>
+&lt;span class="fragment " >
+One
+&lt;/span>
+&lt;span class="fragment " >
+&lt;strong>Two&lt;/strong>
+&lt;/span>
+&lt;span class="fragment " >
+Three
+&lt;/span>
+&lt;hr>
+&lt;p>A fragment can accept two optional parameters:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>class&lt;/code>: use a custom style (requires definition in custom CSS)&lt;/li>
+&lt;li>&lt;code>weight&lt;/code>: sets the order in which a fragment appears&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2 id="speaker-notes">Speaker Notes&lt;/h2>
+&lt;p>Add speaker notes to your presentation&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{% speaker_note %}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> Only the speaker can read these notes
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> Press &lt;span class="sb">`S`&lt;/span> key to view
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> {{% /speaker_note %}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Press the &lt;code>S&lt;/code> key to view the speaker notes!&lt;/p>
+&lt;aside class="notes">
+&lt;ul>
+&lt;li>Only the speaker can read these notes&lt;/li>
+&lt;li>Press &lt;code>S&lt;/code> key to view&lt;/li>
+&lt;/ul>
+&lt;/aside>
+&lt;hr>
+&lt;h2 id="themes">Themes&lt;/h2>
+&lt;ul>
+&lt;li>black: Black background, white text, blue links (default)&lt;/li>
+&lt;li>white: White background, black text, blue links&lt;/li>
+&lt;li>league: Gray background, white text, blue links&lt;/li>
+&lt;li>beige: Beige background, dark text, brown links&lt;/li>
+&lt;li>sky: Blue background, thin dark text, blue links&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;ul>
+&lt;li>night: Black background, thick white text, orange links&lt;/li>
+&lt;li>serif: Cappuccino background, gray text, brown links&lt;/li>
+&lt;li>simple: White background, black text, blue links&lt;/li>
+&lt;li>solarized: Cream-colored background, dark green text, blue links&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;section data-noprocess data-shortcode-slide
+data-background-image="/media/boards.jpg"
+>
+&lt;h2 id="custom-slide">Custom Slide&lt;/h2>
+&lt;p>Customize the slide style and background&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">slide&lt;/span> &lt;span class="na">background-image&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;/media/boards.jpg&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">slide&lt;/span> &lt;span class="na">background-color&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;#0000FF&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">slide&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;my-style&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h2 id="custom-css-example">Custom CSS Example&lt;/h2>
+&lt;p>Let&amp;rsquo;s make headers navy colored.&lt;/p>
+&lt;p>Create &lt;code>assets/css/reveal_custom.css&lt;/code> with:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-css" data-lang="css">&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">reveal&lt;/span> &lt;span class="nt">section&lt;/span> &lt;span class="nt">h1&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">reveal&lt;/span> &lt;span class="nt">section&lt;/span> &lt;span class="nt">h2&lt;/span>&lt;span class="o">,&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">.&lt;/span>&lt;span class="nc">reveal&lt;/span> &lt;span class="nt">section&lt;/span> &lt;span class="nt">h3&lt;/span> &lt;span class="p">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">color&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="kc">navy&lt;/span>&lt;span class="p">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;hr>
+&lt;h1 id="questions">Questions?&lt;/h1>
+&lt;p>&lt;a href="https://discord.gg/z8wNYzb" target="_blank" rel="noopener">Ask&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://wowchemy.com/docs/content/slides/" target="_blank" rel="noopener">Documentation&lt;/a>&lt;/p></description></item><item><title>Example Project</title><link>https://Siheng-Chen.github.io/project/example/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>https://Siheng-Chen.github.io/project/example/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p>
+&lt;p>Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p>
+&lt;p>Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p>
+&lt;p>Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p>
+&lt;p>Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p></description></item><item><title>External Project</title><link>https://Siheng-Chen.github.io/project/external-project/</link><pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate><guid>https://Siheng-Chen.github.io/project/external-project/</guid><description/></item><item><title/><link>https://Siheng-Chen.github.io/admin/config.yml</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://Siheng-Chen.github.io/admin/config.yml</guid><description/></item></channel></rss>
