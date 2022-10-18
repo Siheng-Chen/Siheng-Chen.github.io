@@ -81,7 +81,91 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/ul>
 &lt;p>加入我们，你会接受系统的科研工作练习，陈老师与学长学姐带你快速适应科研节奏，参与到我们正在开展的工作中，有机会在一年做出优质的科研工作并发表顶会论文！&lt;/p>
 &lt;p>请有意向的同学发送简历至：sihengc[AT]sjtu[DOT]edu[DOT]cn&lt;/p>
-&lt;p>也欢迎朋友们帮忙转发，期待大家共同进步！&lt;/p></description></item><item><title>Detecting backdoor attacks against point cloud classifiers</title><link>https://Siheng-Chen.github.io/publication/xiang-detecting-2022/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://Siheng-Chen.github.io/publication/xiang-detecting-2022/</guid><description/></item><item><title>Remember intentions: Retrospective-memory-based trajectory prediction</title><link>https://Siheng-Chen.github.io/publication/xu-remember-2022/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://Siheng-Chen.github.io/publication/xu-remember-2022/</guid><description/></item><item><title>Spatio-temporal graph complementary scattering networks</title><link>https://Siheng-Chen.github.io/publication/cheng-spatio-temporal-2022/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://Siheng-Chen.github.io/publication/cheng-spatio-temporal-2022/</guid><description/></item><item><title>GroupNet: Multiscale Hypergraph Neural Networks for Trajectory Prediction with Relational Reasoning</title><link>https://Siheng-Chen.github.io/project/groupnet/</link><pubDate>Mon, 18 Apr 2022 19:34:19 +0800</pubDate><guid>https://Siheng-Chen.github.io/project/groupnet/</guid><description>&lt;p>
+&lt;p>也欢迎朋友们帮忙转发，期待大家共同进步！&lt;/p></description></item><item><title>Detecting backdoor attacks against point cloud classifiers</title><link>https://Siheng-Chen.github.io/publication/xiang-detecting-2022/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://Siheng-Chen.github.io/publication/xiang-detecting-2022/</guid><description/></item><item><title>Remember intentions: Retrospective-memory-based trajectory prediction</title><link>https://Siheng-Chen.github.io/publication/xu-remember-2022/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://Siheng-Chen.github.io/publication/xu-remember-2022/</guid><description/></item><item><title>Spatio-temporal graph complementary scattering networks</title><link>https://Siheng-Chen.github.io/publication/cheng-spatio-temporal-2022/</link><pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate><guid>https://Siheng-Chen.github.io/publication/cheng-spatio-temporal-2022/</guid><description/></item><item><title>Coperception-UAV Dataset</title><link>https://Siheng-Chen.github.io/dataset/coperception-uav/</link><pubDate>Tue, 19 Apr 2022 20:07:44 +0800</pubDate><guid>https://Siheng-Chen.github.io/dataset/coperception-uav/</guid><description>
+&lt;details class="toc-inpage d-print-none " open>
+&lt;summary class="font-weight-bold">Table of Contents&lt;/summary>
+&lt;nav id="TableOfContents">
+&lt;ul>
+&lt;li>&lt;a href="#about-coperception-uav-dataset">About Coperception-UAV Dataset&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#simulation-setting">Simulation Setting&lt;/a>
+&lt;ul>
+&lt;li>&lt;a href="#swarm-arrangement">Swarm arrangement&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#sensor-setup">Sensor Setup&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;a href="#data">Data&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#usage">Usage&lt;/a>&lt;/li>
+&lt;li>&lt;a href="#citation">Citation&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;/nav>
+&lt;/details>
+&lt;h2 id="about-coperception-uav-dataset">About Coperception-UAV Dataset&lt;/h2>
+&lt;!--
+&lt;video controls >
+&lt;source src="https://Siheng-Chen.github.io/dataset/coperception-uav/images/vis.mp4" type="video/mp4">
+&lt;/video>
+-->
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="images/vis.mp4" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Coperception-UAV is the first comprehensive dataset for UAV-based collaborative perception.&lt;/p>
+&lt;p>A UAV swarm has the potential to distribute tasks and achieve better, faster, and more robust performances than a single UAV. To realize this, we need to integrate collaboration ability into the entire pipeline, including perception, planning, control. Among those tasks, collaborative perception enables holistic scene understanding from multiple perspectives via the collaboration of multiple UAVs, which could fundamentally resolve the occlusion issue and the long-range issue in the traditional single-agent perception. Recently, planning and control of a UAV swarm have been intensively studied; however, the collaborative perception remains under-explored due to the lack of a comprehensive dataset. This work aims to fill this gap and proposes a collaborative perception dataset for UAV swarm.&lt;/p>
+&lt;p>Based on the co-simulation platform of AirSim and CARLA, our dataset consists of 131.9k synchronous images collected from 5 coordinated UAVs flying at 3 altitudes over 3 simulated towns with 2 swarm formations. Each image is fully annotated with the pixel-wise semantic segmentation labels and 2D/3D bounding boxes of vehicles. We further build a benchmark on the proposed dataset by evaluating a variety of related multi-agent collaborative methods on multiple perception tasks, including object detection, semantic segmentation, and bird’seye-view (BEV) semantic segmentation.&lt;/p>
+&lt;h2 id="simulation-setting">Simulation Setting&lt;/h2>
+&lt;p>Our proposed dataset is collected by the co-simulation of CARLA and AirSim. We use CARLA to generate complex simulation scenes and traffic flow; and use AirSim to simulate UAV swarm flying in the scene. The flight route of UAVs is controlled by AirSim and sample data are collected randomly at about 4-second intervals.&lt;/p>
+&lt;h3 id="swarm-arrangement">Swarm arrangement&lt;/h3>
+&lt;p>
+&lt;figure id="figure-formation">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/dataset/coperception-uav/images/formation_hu92eb0a8a8422730f2995c25e85a3fd24_207658_3b9bcb2e0bcf02de05be622cd57ff59b.webp 400w,
+/dataset/coperception-uav/images/formation_hu92eb0a8a8422730f2995c25e85a3fd24_207658_f62460ebe760b795a91ff73a230105fa.webp 760w,
+/dataset/coperception-uav/images/formation_hu92eb0a8a8422730f2995c25e85a3fd24_207658_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://Siheng-Chen.github.io/dataset/coperception-uav/images/formation_hu92eb0a8a8422730f2995c25e85a3fd24_207658_3b9bcb2e0bcf02de05be622cd57ff59b.webp"
+width="714"
+height="329"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+The UAV swarm moves and executes tasks in the three-dimensional space, where the situation could be much more complex than those of vehicles or roadside units. In the dataset, two main factors are taken into consideration that may affect the perception
+and collaboration patterns of UAV swarms: flight formation and altitude. Each UAV swarm consists of 5 UAVs. We arrange two types of formation modes for a UAV swarm: discipline mode, where all 5 UAVs keeps a consistent and relatively static array, and dynamic mode, where each UAV navigates independently in the scene. The former simulates the situation where the swarm of UAVs is executing a same specific task such as exploring an unknown area, search and rescue; while the latter simulates the monitoring and patrolling tasks in the city.&lt;/p>
+&lt;h3 id="sensor-setup">Sensor Setup&lt;/h3>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./images/sensor.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>In the UAV swarm, Each UAV is equipped with 5 RGB cameras in 5 directions and 5 semantic cameras collecting semantic ground truth for RGB cameras.&lt;/p>
+&lt;ul>
+&lt;li>90° horizontal FoV&lt;/li>
+&lt;li>1 bird’s eye view camera and 4 cameras facing forward, backward, right, and left with a pitch degree of −45°&lt;/li>
+&lt;li>image size: 800x450 pixels&lt;/li>
+&lt;/ul>
+&lt;h2 id="data">Data&lt;/h2>
+&lt;p>Fully-annotated data are provided in the dataset, including synchronous images with pixel-wise semantic labels, 2D &amp;amp; 3D bounding boxes of vehicles, and BEV semantic map.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./images/sample.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>&lt;strong>Camera data&lt;/strong> We collect synchronous images from all cameras on 5 UAVs, which is 25 images in a sample. In total, 123.8K images are collected for the discipline swarm mode and 8.1K for the dynamic swarm mode. We provide semantic label for each image.&lt;/p>
+&lt;p>&lt;strong>Bounding boxes&lt;/strong> 3D bounding boxes of vehicles are recorded at the same moment with images, including location (x, y, z), rotation (w, x, y, z in quaternion) in the global coordinate and their length, width and height. To specifically address the occlusion issue, we also provide a binary label for the occlusion status of each bounding box.&lt;/p>
+&lt;p>&lt;strong>BEV semantic label&lt;/strong> We provide BEV segmentation labels of four categories: roadway, building, vehicle, and others, which are the key elements to construct the layout of a city and foreground objects. The resolution of the BEV map is 0.25m×0.25m.&lt;/p>
+&lt;h2 id="usage">Usage&lt;/h2>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./images/tutorial.png" alt="" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>The dataset is organized in a similar way with the widelyused autonomous driving dataset, nuScenes; so it can be used directly with the well-established nuScenes-devkit.&lt;/p>
+&lt;h2 id="citation">Citation&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">To Be Done
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>GroupNet: Multiscale Hypergraph Neural Networks for Trajectory Prediction with Relational Reasoning</title><link>https://Siheng-Chen.github.io/project/groupnet/</link><pubDate>Mon, 18 Apr 2022 19:34:19 +0800</pubDate><guid>https://Siheng-Chen.github.io/project/groupnet/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img src="./images/featured.jpg" alt="" loading="lazy" data-zoomable />&lt;/div>
